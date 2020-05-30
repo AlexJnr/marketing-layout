@@ -1,4 +1,6 @@
-
+/* .bottom_half, .bottom_half div, .page_boundary{
+	border: 1px solid blue;
+}  */
 body{
 	text-align: center;
 }
@@ -40,4 +42,30 @@ body{
 	font-size: 70px;
 	color: white;
 	background-color: #83aed0;
+}
+.bottom_half{
+	font-family: 'Roboto', sans-serif;
+}
+.left_content{
+	width: 30%;
+	text-align: left;
+	font-size: 20px;
+	padding-left: 20px;
+	background-color: #b1d4f0;
+}
+.left_content p {
+	font-weight: bold;
+	padding: 40px 20px;
+	margin-bottom: -55px;
+	margin-top: 0px;
+	color: #144063;
+}
+ul{
+	list-style-type: disc;
+	text-align: left;
+	padding-bottom: 25px;
+}
+li{
+	padding: 3px 0px;
+	color: #144063;
 }
