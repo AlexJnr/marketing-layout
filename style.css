@@ -1,0 +1,43 @@
+
+body{
+	text-align: center;
+}
+.page_boundary{
+	display: inline-block;
+	height: 1100px;
+	width: 850px;
+}
+.top_half{
+	position: relative;
+	height: 45%;
+	background-image: url("main_image.jpeg");
+	background-color: #cccccc;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.top_half div{
+	position: absolute;
+	bottom: 0;
+	left: 25px;
+	letter-spacing: 0.1em;
+	font-family: 'Squada One', cursive;
+	font-size: 120px;
+	color: white;
+	margin-bottom: -23px;
+	 -webkit-text-stroke: 1px #83aed0; 
+   	color: white;
+   	 text-shadow:
+   	       3px 3px 0 #83aed0,
+   	     -1px -1px 0 #83aed0,
+   	      1px -1px 0 #83aed0,
+   	      -1px 1px 0 #83aed0,
+   	       1px 1px 0 #83aed0; 
+}
+.divider{
+	height: 7%;
+	font-family: 'Squada One', cursive;
+	font-size: 70px;
+	color: white;
+	background-color: #83aed0;
+}
