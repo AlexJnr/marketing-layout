@@ -1,6 +1,6 @@
-/* .bottom_half, .bottom_half div, .page_boundary{
-	border: 1px solid blue;
-}  */
+.page_boundary{
+	border: 1px solid #83aed0;
+}
 body{
 	text-align: center;
 }
@@ -47,6 +47,7 @@ body{
 	font-family: 'Roboto', sans-serif;
 }
 .left_content{
+	float: left;
 	width: 30%;
 	text-align: left;
 	font-size: 20px;
@@ -68,4 +69,37 @@ ul{
 li{
 	padding: 3px 0px;
 	color: #144063;
+}
+.right_content{
+	display: inline-block;
+	width: 70%
+	float: left;
+	overflow: hidden;
+}
+h3{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 20px;
+	color: #144063;
+}
+.right_content img{
+	display: inline-block;
+	height: 24px;
+	width: auto;
+}
+.right_content p{
+	text-align: left;
+	font-size: 16px;
+	line-height: 24px;
+}
+h4{
+	color: #144063;
+	font-size: 30px;
+	margin-left: -85px;
+}
+h5{
+	margin-left: -200px;
+	margin-top: -15px;
+	color: #144063;
+	font-size: 24px;
 }
